@@ -30,7 +30,10 @@ function App() {
             GitHub
           </a>
 
-          <a href="/">Download Resume</a>
+        <a href="https://google.com" target="_blank" rel="noreferrer">
+  Download Resume
+</a>
+
         </div>
       </header>
 
