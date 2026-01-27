@@ -3,7 +3,6 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-
       <nav className="navbar">
         <h2>Abhidev</h2>
         <div>
@@ -14,21 +13,32 @@ function App() {
       </nav>
 
       <header className="hero">
-        <img src="https://i.imgur.com/4M34hi2.png" alt="profile" />
+        <img
+          src="https://i.imgur.com/4M34hi2.png"
+          alt="Profile"
+        />
+
         <h1>Abhidev Mohan</h1>
         <p>CSE Student – SJCET Palai</p>
 
         <div className="buttons">
-          <a href="https://github.com/" target="_blank">GitHub</a>
-          <a href="#">Download Resume</a>
+          <a
+            href="https://github.com/abhidev17"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a href="/">Download Resume</a>
         </div>
       </header>
 
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I am a Computer Science student passionate about Web Development,
-          React and building real-world projects.
+          I am a Computer Science student learning React and Web Development,
+          passionate about building real-world projects.
         </p>
       </section>
 
@@ -47,14 +57,13 @@ function App() {
         <h2>Projects</h2>
         <ul>
           <li>Portfolio Website</li>
-          <li>Campus Ride share mobile application </li>
+          <li>KTU Exam Management System</li>
         </ul>
       </section>
 
       <footer>
-        <p>Contact: abhidevmohan17@gmail.com</p>
+        <p>Contact: yourmail@gmail.com</p>
       </footer>
-
     </div>
   );
 }
