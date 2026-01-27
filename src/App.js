@@ -14,7 +14,7 @@ function App() {
 
       <header className="hero">
         <img
-          src="https://i.imgur.com/4M34hi2.png"
+          src="/me.jpeg"
           alt="Profile"
         />
 
