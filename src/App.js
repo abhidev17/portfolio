@@ -14,7 +14,9 @@ function App() {
 
       <header className="hero">
         <img
-          src={process.env.PUBLIC_URL + "/me.jpeg"}
+        
+      src="./me.jpeg"
+
 
           alt="Profile"
         />
@@ -31,7 +33,8 @@ function App() {
             GitHub
           </a>
 
-        <a href={process.env.PUBLIC_URL + "/resume.pdf"}
+        <a href="./resume.pdf"
+
 >
 
   Download Resume
