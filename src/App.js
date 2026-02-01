@@ -71,7 +71,7 @@ function App() {
       </section>
 
       <footer>
-        <p>Contact: yourmail@gmail.com</p>
+        <p>Contact: abhidevmohan17@gmail.com</p>
       </footer>
     </div>
   );
