@@ -78,9 +78,14 @@ function App() {
     <div className="project-card">
       <h3>Campus Rideshare App</h3>
       <p>Mobile application for students to share rides inside campus.</p>
-      <a href="#" target="_blank" rel="noreferrer">
-        Coming Soon
-      </a>
+     <a
+  href="https://github.com/abhidev17/OOPs_Project"
+  target="_blank"
+  rel="noreferrer"
+>
+  View Code
+</a>
+
     </div>
 
   </div>
