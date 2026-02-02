@@ -85,3 +85,53 @@ footer {
   color: #38bdf8;
   text-decoration: none;
 }
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    text-align: center;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+  }
+
+}
