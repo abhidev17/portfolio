@@ -62,13 +62,31 @@ function App() {
         </div>
       </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>Portfolio Website</li>
-          <li>KTU Exam Management System</li>
-        </ul>
-      </section>
+   <section id="projects">
+  <h2>Projects</h2>
+
+  <div className="projects">
+
+    <div className="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal React portfolio with resume download and GitHub Pages deployment.</p>
+      <a href="https://github.com/abhidev17/portfolio" target="_blank" rel="noreferrer">
+        View Code
+      </a>
+    </div>
+
+    <div className="project-card">
+      <h3>Campus Rideshare App</h3>
+      <p>Mobile application for students to share rides inside campus.</p>
+      <a href="#" target="_blank" rel="noreferrer">
+        Coming Soon
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
 
       <footer>
         <p>Contact: abhidevmohan17@gmail.com</p>
