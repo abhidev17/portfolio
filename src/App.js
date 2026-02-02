@@ -1,8 +1,16 @@
+import { motion } from "framer-motion";
+
 import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+   <motion.div
+  className="container"
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+>
+
       <nav className="navbar">
         <h2>Abhidev</h2>
         <div>
@@ -96,7 +104,8 @@ function App() {
       <footer>
         <p>Contact: abhidevmohan17@gmail.com</p>
       </footer>
-    </div>
+    </motion.div>
+
   );
 }
 
