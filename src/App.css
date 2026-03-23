@@ -163,7 +163,7 @@ body {
     linear-gradient(90deg, rgba(56,189,248,0.04) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 30%, transparent 80%);
-}
+ }
 
 .particle-field {
   position: absolute;
