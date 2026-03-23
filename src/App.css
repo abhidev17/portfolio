@@ -223,7 +223,7 @@ body {
   background: conic-gradient(var(--sky), var(--violet), var(--sky));
   animation: spin 6s linear infinite;
   opacity: 0.8;
-}
+ }
 @keyframes spin { to { transform: rotate(360deg); } }
 .profile-img {
   position: absolute;
