@@ -268,7 +268,7 @@ body {
   color: var(--text-muted);
   max-width: 440px;
   line-height: 1.7;
-}
+ }
 
 .hero-actions {
   display: flex;
